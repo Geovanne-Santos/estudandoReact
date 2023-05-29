@@ -1,0 +1,23 @@
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.btns > button{
+    padding: 16px;
+    height: 3rem;
+    font-size: 1.2rem;
+    border: 2px solid #0e2649;
+    border-radius: 20px;
+    background-color: #3d516e;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: .4s linear;
+}
+
+.btns > button:hover{
+    background-color: #0e2649;
+}
